@@ -1,0 +1,23 @@
+<%- include("./partials/header") %>
+
+    <div class="container">
+        <div class="box">
+            <h1>Random Joke Generator</h1>
+            <div class="joke">
+                <h2>
+                    <%= setupH %>
+                </h2>
+                <h2>
+                    <%= deliveryH %>
+                </h2>
+            </div>
+            <form action="/" method="post">
+                <button type="submit" class="joke-button">Get Joke</button>
+            </form>
+        </div>
+        <footer>
+            Developed by <a href="https://hemantsharma.dev" target="_blank">Hemant Sharma</a> 🔗
+        </footer>
+    </div>
+
+<%- include("./partials/footer") %>

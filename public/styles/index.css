@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Corben&family=Yatra+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #982176;
+    color: #FFE5AD;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Yatra One', cursive;
+    font-size: 2.5rem;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.joke {
+    padding: 2rem;
+}
+
+.joke-button {
+    background-color: #3E001F;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+
+}
+
+footer {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+footer a {
+    color: #F11A7B;
+    font-style: italic;
+}
